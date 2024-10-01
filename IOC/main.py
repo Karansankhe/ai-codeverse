@@ -86,7 +86,7 @@ def plot_anomalies(data):
     st.plotly_chart(fig)
 
 # Main Streamlit UI
-st.title("Cyber Triage Tool with Anomaly Detection and IOC Identification")
+st.title("IOC Identification")
 
 # Sidebar for options
 st.sidebar.header("Options")

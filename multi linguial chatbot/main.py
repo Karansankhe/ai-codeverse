@@ -13,6 +13,7 @@ genai.configure(api_key=api_key)
 # Initialize the Google Gemini model
 model = genai.GenerativeModel('gemini-1.5-flash')
 
+
 # Function to get a response from Google Gemini
 def get_gemini_response(content, prompt, language):
     # If the language is not English, include a translation instruction
